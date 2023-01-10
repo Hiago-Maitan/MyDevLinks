@@ -55,6 +55,10 @@ body * {
 
 .profile p {
     font-weight: 500;
+}
+
+.profile .profile-name {
+    font-size: 20px;
     line-height: 24px;
     margin-top: 8px;
 }
@@ -84,8 +88,8 @@ body * {
     animation: slide-back 0.2s;
 }
 
-.switch button:hover{
-    outline: 8px solid var(--highlight-color);  
+.switch button:hover {
+    outline: 8px solid var(--highlight-color);
 }
 
 .switch span {
@@ -103,8 +107,8 @@ body * {
     animation: slide-in 0.2s forwards;
 }
 
-.light .switch button:hover{
-    outline: 8px solid var(--stroke-color);  
+.light .switch button:hover {
+    outline: 8px solid var(--stroke-color);
 }
 
 /* links - lista */
@@ -169,21 +173,21 @@ ul li a:hover {
 }
 
 footer {
-    /* padding: 24px 0; */
     text-align: center;
     font-size: 14px;
 }
 
-@media (min-width: 700px) {
-    /* :root {
-        --bg-url: url(./assests/bg-mobile-desktop-dark.jpg);
-    } */
+/* @media (min-width: 700px) {
+    :root {
+        --bg-url: url(./assests/bg--desktop-dark.jpg);
+    }
 
-    /* .light {
+    .light {
         --bg-url: url(./assets/bg-desktop-light.jpg)
-    } */
-}
+    }
+} */
 
+/* efeito de deslizar o switch para mudar o tema */
 @keyframes slide-in {
     from {
         left: 0;
@@ -195,11 +199,11 @@ footer {
 }
 
 @keyframes slide-back {
-    from{
+    from {
         left: 50%;
     }
 
-    to{
+    to {
         left: 0;
     }
 }
