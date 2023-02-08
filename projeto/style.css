@@ -185,17 +185,8 @@ ul li a:hover {
 footer {
     text-align: center;
     font-size: 14px;
+    padding: 0px 0px 20px 0px;
 }
-
-/* @media (min-width: 700px) {
-    :root {
-        --bg-url: url(./assests/bg--desktop-dark.jpg);
-    }
-
-    .light {
-        --bg-url: url(./assets/bg-desktop-light.jpg)
-    }
-} */
 
 /* efeito de deslizar o switch para mudar o tema */
 @keyframes slide-in {
